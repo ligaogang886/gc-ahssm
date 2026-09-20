@@ -1,0 +1,15 @@
+# Runtime requirements of the released code.
+# The versions below are the ones used for the timings reported in the paper and
+# later patch releases of the same minor version behave identically.
+numpy>=1.24
+scipy>=1.10          # cKDTree, used to index the one-metre anchors of the network
+
+# Only experiments/runtime_benchmark.py needs this.
+psutil>=5.9
+
+# Only scripts/extract_trajectories.py needs this, and that script can only be used
+# against a surveillance archive, which is not distributed.  Every other entry point
+# runs with numpy and scipy alone.
+matplotlib>=3.7
+
+# scripts/extract_trajectories.py also uses sqlite3 from the standard library.
