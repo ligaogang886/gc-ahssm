@@ -1,0 +1,44 @@
+Attribution and data licences
+=============================
+
+OpenStreetMap derived data
+--------------------------
+The files
+
+    data/osm/*.osm
+    data/graphs/*_airport_paths.json
+    data/graphs/*_graph.json
+
+are derived from OpenStreetMap data and are distributed under the Open Database
+License (ODbL) version 1.0.
+
+    (c) OpenStreetMap contributors
+    https://www.openstreetmap.org/copyright
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+If you redistribute these files or a modified version of them, you must keep this
+attribution and license the derived database under the same terms.  Produced works
+that are not databases, for example a figure or a table computed from these files,
+do not inherit the licence, but they must still carry the attribution above.
+
+What the two network files are
+------------------------------
+``*_airport_paths.json`` is the cleaned vector network in the airport local affine
+frame, produced from the OSM extract by ``scripts/clean_osm.py`` and
+``scripts/build_paths.py``.  ``*_graph.json`` adds the topological adjacency, the
+discrete transition matrix, the segment partition and the one-metre anchor points
+used by the estimator, and is produced by ``scripts/build_graph.py``.
+
+Trajectory data
+---------------
+The surveillance records of both airports are the property of the corresponding
+airport operator and are **not** distributed with this repository.  What is
+distributed is
+
+    data/samples/    a small redacted subset, kept for format demonstration and for
+                     smoke testing the estimator, with the operational metadata and
+                     the operator identifiers removed
+
+The subset is provided without warranty.  It is not a sample from which the accuracy
+figures of the paper can be recomputed, because the paper evaluates the complete
+archive of each airport.

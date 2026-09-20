@@ -1,0 +1,53 @@
+{
+  "airport": "xian",
+  "source_directory": "20260508",
+  "seed": 20260508,
+  "selection": "evenly spaced by name inside each movement class",
+  "note": "redistributable subset - only the fields consumed by the estimator are kept",
+  "files": [
+    {
+      "file": "B1812-MU2214-A.json",
+      "movement": "A",
+      "points": 838,
+      "bytes": 220105,
+      "sha1": "d22e6e60ea15"
+    },
+    {
+      "file": "B32HV-MU6955-A.json",
+      "movement": "A",
+      "points": 587,
+      "bytes": 155310,
+      "sha1": "f7d8672ba30a"
+    },
+    {
+      "file": "B6898-JD5144-A.json",
+      "movement": "A",
+      "points": 919,
+      "bytes": 242657,
+      "sha1": "92e74e2927ec"
+    },
+    {
+      "file": "B1855-CA1232-D.json",
+      "movement": "D",
+      "points": 938,
+      "bytes": 250542,
+      "sha1": "c58463607c60"
+    },
+    {
+      "file": "B5447-CA2916-D.json",
+      "movement": "D",
+      "points": 1412,
+      "bytes": 375004,
+      "sha1": "42cb86335213"
+    },
+    {
+      "file": "B6996-O37501-D.json",
+      "movement": "D",
+      "points": 1685,
+      "bytes": 439078,
+      "sha1": "a2fff268b6ca"
+    }
+  ],
+  "n_files": 6,
+  "n_points": 6379
+}

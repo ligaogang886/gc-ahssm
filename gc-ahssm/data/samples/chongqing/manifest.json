@@ -1,0 +1,53 @@
+{
+  "airport": "chongqing",
+  "source_directory": "20250306",
+  "seed": 20260508,
+  "selection": "evenly spaced by name inside each movement class",
+  "note": "redistributable subset - only the fields consumed by the estimator are kept",
+  "files": [
+    {
+      "file": "B1891-3U8066-A.json",
+      "movement": "A",
+      "points": 232,
+      "bytes": 66119,
+      "sha1": "df28ee2706c0"
+    },
+    {
+      "file": "B5277-MF8950-A.json",
+      "movement": "A",
+      "points": 612,
+      "bytes": 174418,
+      "sha1": "35a2a3cac235"
+    },
+    {
+      "file": "B8249-PN6302-A.json",
+      "movement": "A",
+      "points": 212,
+      "bytes": 60074,
+      "sha1": "92eff840b2de"
+    },
+    {
+      "file": "B1891-3U8065-D.json",
+      "movement": "D",
+      "points": 396,
+      "bytes": 112525,
+      "sha1": "a6c6d2ba4ddf"
+    },
+    {
+      "file": "B5280-MF8613-D.json",
+      "movement": "D",
+      "points": 749,
+      "bytes": 215377,
+      "sha1": "fc9b0a253570"
+    },
+    {
+      "file": "B8102-PN6443-D.json",
+      "movement": "D",
+      "points": 486,
+      "bytes": 138054,
+      "sha1": "8a9a0496123f"
+    }
+  ],
+  "n_files": 6,
+  "n_points": 2687
+}
